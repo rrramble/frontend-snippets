@@ -79,7 +79,7 @@ body {
 }
 ```
 
-Info about other [CSS system colors](https://drafts.csswg.org/css-color/#css-system-colors)
+Info about other [CSS system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color)
 
 ### 2. For custom colors
 

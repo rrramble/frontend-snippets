@@ -66,3 +66,42 @@ In SVG:
 .image-container {
     position: relative;
 }
+```
+
+## Set up Light/Dark modes
+
+### 1. Use CSS color constants in `body`
+```css
+body {
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+}
+```
+
+[Info about other CSS constants]()
+
+### 2. For custom colors
+
+2.1. Use [`color: light-dark()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) for very modern browsers
+```css
+.article {
+    border-color: light-dark(lightgreen, darkgreen);
+}
+```
+
+2.2. Use [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) unitl the `light-dark()` function become widely available
+   
+```css
+/* For default light mode */
+.article {
+    border-color: lightgreen;
+}
+
+/* For dark mode */
+@media (prefers-color-scheme: dark) {
+    .article {
+        border-color: darkgreen;
+    }
+}
+```

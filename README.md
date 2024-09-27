@@ -1,2 +1,4 @@
-# frontend-snippets
-Useful short and long snippets/code of HTML, CSS, JS
+# Frontend snippets
+Useful snippets and code of HTML, CSS, JS
+
+[CSS snippets](/css.md)

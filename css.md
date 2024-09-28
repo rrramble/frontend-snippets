@@ -70,18 +70,20 @@ In SVG:
 
 ## Set up Light/Dark modes
 
-### 1. Use CSS system colors in `body`
+### Step 1. Use `CSS system colors` in `body`
 ```css
 body {
     background-color: Canvas;
     color: CanvasText;
     color-scheme: light dark;
+
+    /* use other CSS system colors for other objects */
 }
 ```
 
-Info about other [CSS system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color)
+That's all if you use only [CSS system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color)!
 
-### 2. For custom colors
+### Step 2. If you use colors outside `CSS system colors` list
 
 2.1. Use [`color: light-dark()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) in browsers updated after May, 2024. See [light-dark() function on Can I Use site](https://caniuse.com/?search=light-dark())
 ```css

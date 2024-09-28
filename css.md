@@ -107,3 +107,59 @@ That's all if you use only [CSS system colors](https://developer.mozilla.org/en-
     }
 }
 ```
+
+## Print styles
+
+Article of Manuel Matuzovic about [CSS print styles](https://www.matuzo.at/blog/i-totally-forgot-about-print-style-sheets/)(https://habr.com/ru/companies/ruvds/articles/317776/)
+
+```css
+@media print {
+	*,
+	*::before,
+	*::after {
+		color: black !important;
+		background-color: transparent !important;
+	}
+}
+```
+
+Alternatively you can insert print styles in HTML <head> tag:
+
+```css
+<head>
+    <link media="print" href="print.css" />
+```
+
+Some other rules:
+
+```css
+@media print {
+    section {
+      page-break-after: always;
+      page-break-before: always;
+    }
+
+    ul {
+      page-break-inside: avoid;
+    }
+
+    p {
+      /* Print at least 2 lines on the current page and 4 lines on the next page */
+      orphans: 2;
+      widows: 4;
+    }
+
+    /* Display targets of links */
+    a[href^="http"]:not([href*="codepen.io"]):after {
+        content: " (" attr(href) ")";
+    }
+    
+    /* Display expansions of abbreviations */
+    abbr[title]:after {
+      content: " (" attr(title) ")";
+    }
+
+    @page {
+        margin: 1cm; /* Paper margins */
+    }
+```

@@ -114,12 +114,12 @@ Article of Manuel Matuzovic about [CSS print styles](https://www.matuzo.at/blog/
 
 ```css
 @media print {
-	*,
-	*::before,
-	*::after {
-		color: black !important;
-		background-color: transparent !important;
-	}
+    *,
+    *::before,
+    *::after {
+        color: black !important;
+        background-color: transparent !important;
+    }
 }
 ```
 

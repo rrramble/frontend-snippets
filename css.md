@@ -41,7 +41,7 @@ In SVG:
         xmlns="http://www.w3.org/2000/svg"> \
         <path d="M 0 169 H 192 V 23 H 0 V 170 Z" fill-rule="evenodd" /> \
     </svg> \
-);
+');
 ```
 
 2. Use CSS `mask` property in `::before/after` pseudoelement

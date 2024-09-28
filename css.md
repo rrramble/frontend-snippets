@@ -123,7 +123,7 @@ Article of Manuel Matuzovic about [CSS print styles](https://www.matuzo.at/blog/
 }
 ```
 
-Alternatively you can insert print styles in HTML <head> tag:
+Alternatively you can insert print styles in HTML `<head>` tag:
 
 ```css
 <head>

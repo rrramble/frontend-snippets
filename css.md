@@ -70,7 +70,7 @@ In SVG:
 
 ## Set up Light/Dark modes
 
-### Step 1. Use `CSS system colors` in `body`
+### Step 1. Use `CSS system colors` in `<body>`
 ```css
 body {
     background-color: Canvas;

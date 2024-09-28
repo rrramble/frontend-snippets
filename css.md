@@ -30,7 +30,7 @@ Sources and examples:
 1. Define CSS-variable with SVG-image
 
 In SVG:
-- backslash `\` symbol should be at the end of every line
+- backslash `\` symbol should be at the end of every SVG line
 - hash `#` symbol must be changed to `%23`
 - single quotes `'` symbols must be used outside SVG to escape double quotes `"` symbols inside SVG
 

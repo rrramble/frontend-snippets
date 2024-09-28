@@ -83,14 +83,14 @@ Info about other [CSS system colors](https://developer.mozilla.org/en-US/docs/We
 
 ### 2. For custom colors
 
-2.1. Use [`color: light-dark()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) for very modern browsers
+2.1. Use [`color: light-dark()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) in browsers updated after May, 2024. See [light-dark() function on Can I Use site](https://caniuse.com/?search=light-dark())
 ```css
 .article {
     border-color: light-dark(lightgreen, darkgreen);
 }
 ```
 
-2.2. Use [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) unitl the `light-dark()` function become widely available
+2.2. Use [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) if you would like to support browsers, updated before May, 2024.
    
 ```css
 /* For default light mode */

@@ -162,4 +162,5 @@ Some other rules:
     @page {
         margin: 1cm; /* Paper margins */
     }
+}
 ```

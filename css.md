@@ -135,12 +135,12 @@ Some other rules:
 ```css
 @media print {
     section {
-      page-break-after: always;
-      page-break-before: always;
+      break-after: always;
+      break-before: always;
     }
 
     ul {
-      page-break-inside: avoid;
+      break-inside: avoid;
     }
 
     p {

@@ -92,7 +92,7 @@ That's all if you use only [CSS system colors](https://developer.mozilla.org/en-
 }
 ```
 
-2.2. Use [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) if you would like to support browsers, updated before May, 2024.
+2.2. Use [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) if you need to support browsers, updated before May, 2024.
    
 ```css
 /* For default light mode */

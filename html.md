@@ -46,3 +46,4 @@ And link it with a `<link>` tag in the `<head>` section:
 
 References:
 - [Web manifests](https://www.w3.org/TR/appmanifest/)
+- [<link> HTML-tag](https://html.spec.whatwg.org/multipage/links.html#element-statedef-link-icon)

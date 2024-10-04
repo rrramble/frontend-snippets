@@ -15,8 +15,8 @@ In order to announce when something changes in HTML-code, use the following [`ar
 1. In HTML-file, add the following code:
 ```html
 <head>
-    <link type="image/png" rel="alternate icon" href="favicon-32.png" sizes="32x32">
-    <link type="image/png" rel="alternate icon" href="favicon-16.png" sizes="16x16">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
 ```
 2. For Apple devices, place the following file in the root of a web-server:
 `apple-touch-icon.png`. Resolution should be 180×180 pixels.

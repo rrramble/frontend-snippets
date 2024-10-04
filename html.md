@@ -43,3 +43,6 @@ And link it with a `<link>` tag in the `<head>` section:
 ```html
 <link rel="manifest" href="MANIFEST-FILE.json">
 ```
+
+References:
+- [Web manifests](https://www.w3.org/TR/appmanifest/)

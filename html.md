@@ -10,7 +10,7 @@ In order to announce when something changes in HTML-code, use the following [`ar
 </article>
 ```
 
-# Favicons
+## Favicons
 
 1. In HTML-file, add the following code:
 ```html

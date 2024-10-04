@@ -13,12 +13,11 @@ Sources and examples:
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
-  left: 0;
   margin: 0;
+  outline: 0;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  top: 0;
   width: 1px;
   white-space: nowrap;
 }

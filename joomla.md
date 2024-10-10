@@ -5,7 +5,7 @@
 ```php
 <?php
 
-// A modern way
+// A modern way with PNG-images
 $this->addHeadLink(
   HTMLHelper::_(
     'image', 'images/favicon-32-32.png', '', [], false, 1
@@ -20,7 +20,7 @@ $this->addHeadLink(
   'icon', 'rel', ['type' => 'image/vnd.microsoft.icon', 'sizes' => '16x16']
 );
 
-// Fallback of an old-style FAVICON.ICO file
+// Fallback of an old-style FAVICON.ICO file for Internet Explorer version 9.0 and less
 $this->addHeadLink(
   HTMLHelper::_(
     'image', 'images/favicon.ico', '', [], false, 1

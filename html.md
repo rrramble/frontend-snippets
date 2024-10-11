@@ -47,3 +47,8 @@ And link it with a `<link>` tag in the `<head>` section:
 References:
 - [Web manifests](https://www.w3.org/TR/appmanifest/)
 - [<link> HTML-tag](https://html.spec.whatwg.org/multipage/links.html#element-statedef-link-icon)
+
+
+## Color names
+- [Color names from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+- [Color names grouped by color](https://htmlcolorcodes.com/color-names/)

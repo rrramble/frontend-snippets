@@ -6,7 +6,10 @@ In order to announce when something changes in HTML-code, use the following [`ar
 
 ```html
 <article
-    aria-live="assertive" aria-relevant="additions text" aria-atomic="true">
+    aria-live="assertive"
+    aria-relevant="additions text"
+    aria-atomic="true"
+>
 </article>
 ```
 

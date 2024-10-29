@@ -28,3 +28,19 @@ $this->addHeadLink(
   'icon', 'rel', ['type' => 'image/vnd.microsoft.icon']
 );
 ```
+
+## Determine if current page is the main page (front page)
+
+```php
+<?php
+
+$app = JFactory::getApplication();
+$menu = $app->getMenu();
+$langTag = JFactory::getLanguage()->getTag();
+
+if ($menu->getActive() === $menu->getDefault($langTag)) {
+	// Do something
+}
+```
+
+[Source](https://docs.joomla.org/How_to_determine_if_the_user_is_viewing_the_front_page)

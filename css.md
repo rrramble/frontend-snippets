@@ -163,3 +163,23 @@ Some other rules:
     }
 }
 ```
+
+
+## Animate `display` property
+
+Use `transition-behavior: allow-discrete`
+
+Example:
+
+```css
+.block {
+    display: none;
+    opacity: 0;
+    transition: 1s;
+    transition-behavior: allow-discrete;
+}
+
+.block--visible {
+    display: block;
+    opacity: 1;
+}
